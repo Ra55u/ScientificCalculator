@@ -69,7 +69,7 @@ namespace ViewModels
                 {"ABS", "Abs" },
             };
 
-            var retString = inputText;
+            var retString = InputText;
 
             foreach ( var key in _opMapper.Keys)
             {
@@ -82,9 +82,9 @@ namespace ViewModels
         [RelayCommand]
         private void Backspace()
         {
-            if (inputText.Length > 0)
+            if (InputText.Length > 0)
             {
-                inputText = inputText.Substring(0, inputText.Length - 1);
+                InputText = InputText.Substring(0, InputText.Length - 1);
             }
         }
 

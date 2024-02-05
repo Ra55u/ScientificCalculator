@@ -338,7 +338,7 @@
             Grid.Row="7"
             Grid.Column="4"
             ZIndex="1"
-            Margin="-5,4,6,-2"
+            Margin="-4,4,6,-2"
             Style="{StaticResource OperatorButtonStyle}"
             Text="÷"
             Command="{Binding MathOperatorCommand}"
@@ -352,7 +352,7 @@
             Style="{StaticResource OperatorButtonStyle}"
             Text="x"
             Command="{Binding MathOperatorCommand}"
-            CommandParameter="*" />
+            CommandParameter="x" />
 
         <!--Row 7-->
         <Button
@@ -389,7 +389,7 @@
             Grid.Row="8"
             Grid.Column="4"
             ZIndex="1"
-            Margin="-5,4,6,-2"
+            Margin="-4,4,6,-2"
             Style="{StaticResource OperatorButtonStyle}"
             Text="-"
             Command="{Binding MathOperatorCommand}"
@@ -433,8 +433,7 @@
             Margin="1,4,6,-2"
             Style="{StaticResource NumberButtonStyle}"
             Text="⌫"
-            Command="{Binding BackspaceCommand}"
-            CommandParameter="" />
+            Command="{Binding BackspaceCommand}"/>
 
         <Button
             Grid.Row="9"
